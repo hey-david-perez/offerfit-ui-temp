@@ -6,5 +6,6 @@ const { myLayer } = useAppConfig()
   <div>
     <h1>Hello World!</h1>
     <pre>{{ myLayer }}</pre>
+    <extrabutton />
   </div>
 </template>

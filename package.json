@@ -9,13 +9,20 @@
     "build": "nuxt build .playground",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@nuxt/eslint": "latest",
-    "@nuxtjs/storybook": "^8.2.0",
+    "@nuxtjs/storybook": "latest",
+    "@storybook/addon-essentials": "8.3.0",
+    "@storybook/addon-interactions": "8.3.0",
+    "@storybook/addon-links": "8.3.0",
+    "@storybook/vue3": "8.3.0",
+    "storybook": "8.3.0",
     "eslint": "^9.11.0",
-    "nuxt": "^3.13.0",
+    "nuxt": "3.13.2",
     "typescript": "^5.6.2",
     "vue": "latest"
   }
