@@ -7,7 +7,9 @@ import {
     transformerDirectives,
     transformerVariantGroup,
   } from 'unocss'
-  
+  import { presetHeroPatterns } from '@julr/unocss-preset-heropatterns'
+  import { presetAnimations } from 'unocss-preset-animations'
+
   export default defineConfig({
     shortcuts: [],
     presets: [
@@ -21,6 +23,8 @@ import {
           mono: 'DM Mono',
         },
       }),
+      presetHeroPatterns(),
+      presetAnimations(),
     ],
     transformers: [
       transformerDirectives(),
