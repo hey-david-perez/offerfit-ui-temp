@@ -1,11 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    "shadcn-nuxt",
     "@nuxtjs/storybook",
     "@unocss/nuxt",
     "@nuxt/icon",
     "@nuxtjs/color-mode",
+    "shadcn-nuxt",
   ],
   compatibilityDate: "2024-10-04",
   features: {
@@ -34,5 +34,8 @@ export default defineNuxtConfig({
       '~/components',
       '~/components/ui',
     ],
+  },
+  alias: {
+    vue: "vue/dist/vue.esm-bundler"
   },
 })
