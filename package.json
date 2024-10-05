@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "latest",
+    "@nuxt/icon": "^1.5.3",
     "@nuxtjs/storybook": "latest",
     "@storybook/addon-a11y": "^8.3.5",
     "@storybook/addon-docs": "^8.3.5",
@@ -23,10 +24,12 @@
     "@storybook/addon-links": "8.3.0",
     "@storybook/addon-viewport": "^8.3.5",
     "@storybook/vue3": "8.3.0",
+    "@unocss/nuxt": "^0.63.3",
     "eslint": "^9.11.0",
     "nuxt": "3.13.2",
     "storybook": "8.3.0",
     "typescript": "^5.6.2",
+    "unocss": "^0.63.3",
     "vue": "latest"
   }
 }
