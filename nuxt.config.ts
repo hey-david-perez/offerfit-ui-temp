@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/storybook", "@unocss/nuxt", "@nuxt/icon"],
+  modules: [
+    "@nuxtjs/storybook",
+    "@unocss/nuxt",
+    "@nuxt/icon",
+    "@nuxtjs/color-mode",
+  ],
   compatibilityDate: "2024-10-04",
   features: {
     // For UnoCSS
