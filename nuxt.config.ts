@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/storybook",
@@ -34,6 +35,7 @@ export default defineNuxtConfig({
       '~/components',
       '~/components/ui',
     ],
+    global: true,
   },
   alias: {
     vue: "vue/dist/vue.esm-bundler"

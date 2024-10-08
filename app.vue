@@ -1,3 +1,6 @@
 <template>
-  <HelloWorld />
+  <Button>
+    Hello world
+  </Button>
+  <NuxtPage />
 </template>

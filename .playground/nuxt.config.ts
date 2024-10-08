@@ -6,5 +6,5 @@ export default defineNuxtConfig({
   rootDir: './',
   devtools: {
     enabled: true,
-  },
+  }
 })
